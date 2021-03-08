@@ -193,7 +193,7 @@ body {
 .footer {
     grid-area: footer;
     display: flex;
-    max-width: 34rem;
+    max-width: 35rem;
     margin: 2rem 4rem 0rem;
 }
 
