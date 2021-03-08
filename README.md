@@ -1,6 +1,6 @@
 # GHOST BLOG LAYOUT
 
-This is Ghost Blog's layout created by [Ankit Karn](https://github.com/ankitkarnak) using Grid, Flexbox.
+This is Ghost Blog's layout cloned by [Ankit Karn](https://github.com/ankitkarnak) using Grid, Flexbox.
 
 ## Live hosted link:
 
