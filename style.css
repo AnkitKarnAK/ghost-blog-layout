@@ -12,6 +12,7 @@ body {
 
 .blog-layout {
     display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
     grid-template-areas:
         "navbar navbar navbar"
         "header header header"
@@ -82,7 +83,7 @@ body {
     grid-area: main-blog;
 
     display: grid;
-    grid-gap: 5rem;
+    grid-template-columns: 1fr 1fr 1fr;
     grid-template-areas:
         "main-img main-img main-content";
 
@@ -95,6 +96,7 @@ body {
 
 .main-blog>.main-img>img {
     width: 100%;
+    height: auto;
 }
 
 .main-blog>.main-content {
@@ -109,13 +111,14 @@ body {
 
 .main-blog>.main-content>h1 {
     color: var(--white);
+    max-width: 70%;
 }
 
 .main-blog>.main-content>p {
     color: #90a2aa;
     font-size: 1.3rem;
     text-align: justify;
-    max-width: 60%;
+    max-width: 70%;
 }
 
 .blog-foot {
@@ -165,11 +168,12 @@ body {
 .other-blogs>.blog-cards {
 
     padding: 0 1rem;
-    width: 22rem;
+
 }
 
 .other-blogs>.blog-cards>.card-image>img {
     max-width: 100%;
+    height: auto;
 
 }
 
@@ -192,12 +196,14 @@ body {
 
 .footer {
     grid-area: footer;
-    display: flex;
-    max-width: 35rem;
-    margin: 2rem 4rem 0rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 1rem;
+    grid-gap: 3rem;
+    padding: 0 5rem;
 }
 
 .footer>img {
     width: 100%;
-    padding: 2rem;
+    height: auto;
 }
